@@ -1,0 +1,36 @@
+{
+  "name": "upload-file-cli",
+  "version": "1.0.0",
+  "description": "Unofficial file.io cli",
+  "bin": {
+    "upload-file-cli": "index.ts"
+  },
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "upload",
+    "file",
+    "folder",
+    "file.io"
+  ],
+  "author": "Luis Reinoso <lomejordejr@gmail.com> (http://luisreinoso.github.io)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuisReinoso/upload-file-cli"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.7.2",
+    "@types/node-fetch": "^2.5.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "commander": "^3.0.0",
+    "form-data": "^2.5.0",
+    "node-fetch": "^2.6.0",
+    "zip-local": "^0.3.4"
+  }
+}
