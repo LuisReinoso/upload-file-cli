@@ -1,5 +1,7 @@
 An Unofficial [file.io](file.io) cli
 
+![Upload image cli](upload-file-cli.png)
+
 # Instalation
 ```console
 npm install -g upload-file-cli
